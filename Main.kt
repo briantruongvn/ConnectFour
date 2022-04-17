@@ -258,13 +258,9 @@ fun playMultiGames() {
     println("Game over!")
 }
 
-fun test() {
-    //This is to test
-}
 fun main() {
     UserInput.askUserInput()
     UserInput.chooseNumGame()
     UserInput.displayUserInfo()
     playMultiGames()
-    //Test
 }
